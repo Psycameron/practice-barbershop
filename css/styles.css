@@ -198,6 +198,10 @@ body {
 
 /* Barbers */
 
+.barbers {
+    background-color: var(--bgc-light-color);
+}
+
 .barbers-subtitle {
     font-weight: 600;
     font-size: 11px;
@@ -231,4 +235,31 @@ body {
     font-size: 11px;
     line-height: 1.36;
     text-transform: uppercase;
+}
+
+/* Footer */
+
+.footer {
+    background-color: var(--bgc-light-color);
+}
+
+.footer-copy {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+    color: var(--small-text-dark-bgc);
+}
+
+.footer .link {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+    color: var(--primary-text-color);
+}
+
+.footer .link:hover,
+.footer .link:focus {
+    color: var(--accent-color);
 }
