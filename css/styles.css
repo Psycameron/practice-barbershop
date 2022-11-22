@@ -1,0 +1,234 @@
+/* Основной цвет текста на белом фоне #303030  */
+/* Основной цвет текста на темном фоне #ffffff; */
+/* Дополнительный цвет текста на темном фоне #9DA4BD */
+/* Акцент #FF6C00 */
+/* Светлый задник #F7F7F7 */
+/* Другой цвет на темном фоне #9DA4BD60 */
+/* Цвет текста для формы #9DA4BD40; */
+/* Дополнительный цвет текста на белом фоне #555555 */
+/* Темный задник #191C26 */
+
+
+:root {
+    --primary-text-color: #303030;
+    --secondary-text-color: #ffffff;
+    --small-text-dark-bgc: #9DA4BD;
+    --accent-color: #FF6C00;
+    --other-text-color: #9DA4BD60;
+    --bgc-light-color: #F7F7F7;
+    --form-text-color: #9DA4BD40;
+    --small-text-light-bgc: #555555;
+    --bgc-dark-color: #191C26;
+}
+
+/* Body */
+
+body {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    color: var(--primary-text-color);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+/* Navigation */
+
+.nav {
+    background-color: var(--bgc-dark-color);
+}
+
+.nav .link {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 0.1em;
+    color: var(--secondary-text-color);
+}
+
+.nav .link:hover,
+.nav .link:focus {
+    color: var(--accent-color);
+}
+
+/* Телефон и кнопка */
+
+
+/* Hero */
+
+.hero .link {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    letter-spacing: 0.2em;
+    color: var(--primary-text-color);
+}
+
+.hero .link:hover,
+.hero .link:focus {
+    color: var(--accent-color);
+}
+
+.hero-subtitle {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    color: var(--other-text-color);
+}
+
+.hero-title {
+    font-family: Raleway, sans-serif;
+    font-size: 72px;
+    line-height: 1.18;
+    letter-spacing: 0.05em;
+    color: var(--secondary-text-color);
+    background-color: var(--bgc-dark-color);
+}
+
+.hero-text {
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: var(--small-text-dark-bgc);
+}
+
+/* About */
+
+.about-subtitle {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+}
+
+.about-title {
+    font-family: Raleway, sans-serif;
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+}
+
+.about-bigtext {
+    line-height: 1.67;
+    color: var(--small-text-light-bgc);
+}
+
+.about-small-text {
+    font-size: 14px;
+    line-height: 1.86;
+    letter-spacing: 0.02em;
+    color: var(--small-text-light-bgc);
+}
+
+/* Services and prices */
+
+.prices {
+    background-color: var(--bgc-dark-color);
+}
+
+.prices-subtitle {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+    color: var(--other-text-color);
+}
+
+.prices-title {
+    font-family: Raleway, sans-serif;
+    font-size: 42px;
+    line-height: 1.17px;
+    letter-spacing: 0.05em;
+    color: var(--secondary-text-color);
+}
+
+.prices-text {
+    font-size: 18px;
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: var(--small-text-dark-bgc);
+}
+
+/* Features */
+
+.features-number {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 1.36;
+    letter-spacing: 0.05em;
+}
+
+.features-sign {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.38;
+    color: var(--accent-color);
+}
+
+.features-desc {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+}
+
+.features-subtitle {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+}
+
+.features-title {
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+}
+
+.features-text {
+    line-height: 1.67;
+    letter-spacing: 0.02em;
+    color: var(--small-text-light-bgc);
+}
+
+/* Barbers */
+
+.barbers-subtitle {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+}
+
+.barbers-title {
+    font-size: 42px;
+    line-height: 1.17;
+    letter-spacing: 0.05em;
+}
+
+.barbers-subject {
+    font-weight: 400;
+    line-height: 1.39;
+    letter-spacing: 0.02em;
+}
+
+.barbers-text {
+    font-size: 14px;
+    line-height: 1.36;
+    letter-spacing: 0.02em;
+    color: var(--accent-color);
+}
+
+/* Gallery */
+
+.gallery-subtitle {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 1.36;
+    text-transform: uppercase;
+}
